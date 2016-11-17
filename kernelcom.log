@@ -1,0 +1,24 @@
+# load kernel module
+
+sudo insmod xxx.ko
+
+# list modules
+
+lsmod
+
+
+# get information about the module
+
+modinfo xxx.ko
+
+
+# unload the module
+
+sudo rmmod xxx.ko
+
+
+# view outputs
+
+tail -f xxx.log
+
+
